@@ -20,3 +20,9 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function personalInfo() {
+	info = 'Name: Konrad Kania \n' +
+		   'Index: 186757 \n';
+	navigator.notification.alert(info);
+}
